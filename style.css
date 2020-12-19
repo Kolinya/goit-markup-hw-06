@@ -587,6 +587,12 @@ button {
   padding-left: 29px;
   padding-right: 28px;
   border: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+
   align-items: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
