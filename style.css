@@ -542,6 +542,7 @@ button {
 }
 .form {
   display: flex;
+  align-items: end;
   margin-left: 93px;
 }
 .form-label {
@@ -577,8 +578,7 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 .submit {
-  align-items: center;
-  justify-content: center;
+  display: flex;
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -587,14 +587,22 @@ button {
   padding-left: 29px;
   padding-right: 28px;
   border: 0px;
+  align-items: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
-.submit::after{
-  im
+.submit::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(./icons/icon\ send.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /* PORTFOLIO */
 .button-flex {
