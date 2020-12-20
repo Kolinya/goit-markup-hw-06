@@ -392,7 +392,7 @@
 </div>
 <form class="form">
     <label>
-    <span class="form-label">Подпишитесь на рассылку</span>
+    <span class="form-subscribe">Подпишитесь на рассылку</span>
     <input type="email" class="form-input" name="email" placeholder="E-mail">
 </label>
 <button type="submit" class="submit">Подписаться</button>
@@ -403,12 +403,13 @@
 <div class="modal">
     <span class="modal-subscribe">Оставьте свои данные, мы вам перезвоним</span>
     <form class="form-modal">
-        <label>
-            <span class="modal-input">Имя</span>
+        <span class="modal-input">Имя</span>
+        <label class="form-label">
             <svg class="icon" width="12" height="12"> 
                 <use href="./icons/symbol-defs.svg#icon-name"></use>
             </svg>
-        <input type="name" class="form-name" name="name">
+            <input type="name" class="form-name" name="name">
+        
         </label>
         <label>
             <span class="modal-input">Телефон</span>
@@ -429,6 +430,13 @@
             
             <textarea name="comment" placeholder="Введите текст" class="form-comment"></textarea>
         </label>
+        <svg class="icon-check" width="16" height="15">
+            <use href="./icons/symbol-defs.svg#icon-check"></use>
+        </svg>
+        <span class="modal-check">Соглашаюсь с рассылкой и принимаю
+        <a href="#" class="rules">Условия договора</a>
+    </span>
+    <button type="submit" class="submit-button">Отправить</button>
     </form>
     <button class="modal-button" data-modal-close>
         <svg width="11" height="11">
