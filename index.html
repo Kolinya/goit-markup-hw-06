@@ -400,7 +400,36 @@
     </div>
 </footer> 
 <div class="backdrop is-hidden" data-modal>
-<div class="modal" >
+<div class="modal">
+    <span class="modal-subscribe">Оставьте свои данные, мы вам перезвоним</span>
+    <form class="form-modal">
+        <label>
+            <span class="modal-input">Имя</span>
+            <svg class="icon" width="12" height="12"> 
+                <use href="./icons/symbol-defs.svg#icon-name"></use>
+            </svg>
+        <input type="name" class="form-name" name="name">
+        </label>
+        <label>
+            <span class="modal-input">Телефон</span>
+            <svg class="icon" width="13" height="13">
+                <use href="./icons/symbol-defs.svg#icon-phone"></use>
+            </svg>
+            <input type="phone" class="form-name" name="phone">
+        </label>
+        <label>
+            <span class="modal-input">Почта</span>
+            <svg class="icon" width="15" height="12">
+                <use href="./icons/symbol-defs.svg#icon-mail"></use>
+            </svg>
+            <input type="email" class="form-name" name="email">
+        </label>
+        <label>
+            <span class="modal-input">Комментарий</span>
+            
+            <textarea name="comment" placeholder="Введите текст" class="form-comment"></textarea>
+        </label>
+    </form>
     <button class="modal-button" data-modal-close>
         <svg width="11" height="11">
             <use href="./icons/symbol-defs.svg#icon-close"></use>
