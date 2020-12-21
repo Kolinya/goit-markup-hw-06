@@ -227,14 +227,13 @@ button {
   border-radius: 4px;
 }
 .form-modal {
+  display: flex;
   width: 448px;
   height: 342px;
   margin-top: 12px;
-
   flex-direction: column;
 }
 .modal-subscribe {
-  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 0.9;
@@ -253,6 +252,9 @@ button {
   letter-spacing: 0.01em;
   color: #757575;
 }
+.label-text {
+  position: relative;
+}
 .form-name {
   width: 100%;
   height: 40px;
@@ -261,10 +263,11 @@ button {
   border-radius: 4px;
 }
 .form-name:hover,
-.form-name:focus {
+.form-name:focus,
+.form-comment:hover,
+.form-comment:focus {
   border: 1px solid var(--accent-color);
   cursor: pointer;
-  fill: currentColor;
 }
 .form-comment {
   resize: none;
@@ -649,8 +652,7 @@ button {
   margin-left: 12px;
   margin-top: 14px;
 }
-.icon:hover,
-.icon:focus {
+.label-text:hover > .icon:hover {
   fill: var(--accent-color);
 }
 .form-name {
