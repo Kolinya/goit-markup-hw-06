@@ -278,10 +278,13 @@ button {
   font-size: 12px;
   line-height: 0.9;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+}
+.form-comment::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }
 .modal-check {
   font-style: normal;
