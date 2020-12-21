@@ -657,6 +657,8 @@ button {
 }
 .form-name {
   padding-left: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .form-subscribe {
   font-style: normal;
