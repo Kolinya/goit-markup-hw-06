@@ -252,9 +252,7 @@ button {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.label-text {
-  position: relative;
-}
+
 .form-name {
   width: 100%;
   height: 40px;
@@ -647,7 +645,7 @@ button {
   align-items: end;
   margin-left: 93px;
 }
-.form-label {
+.label-text {
   position: relative;
 }
 .icon {
@@ -662,6 +660,9 @@ button {
   padding-left: 40px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+.form-name:focus + .icon {
+  fill: var(--accent-color);
 }
 .form-subscribe {
   font-style: normal;
