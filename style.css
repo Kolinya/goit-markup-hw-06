@@ -650,14 +650,13 @@ button {
 }
 .icon {
   position: absolute;
-  margin-left: 12px;
-  margin-top: 14px;
+  left: 12px;
 }
 .label-text:hover > .icon:hover {
   fill: var(--accent-color);
 }
 .form-name {
-  padding-left: 40px;
+  padding-left: 42px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
