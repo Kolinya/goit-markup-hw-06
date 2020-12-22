@@ -424,17 +424,18 @@
             <svg class="icon" width="18" height="18">
                 <use href="./icons/symbol-defs.svg#icon-mail"></use>
             </svg>
-        </label>
+        </label >
         <span class="modal-input">Комментарий</span>
-        <label>    
+        <label class="comment-lable">    
             <textarea name="comment" placeholder="Введите текст" class="form-comment input"></textarea>
         </label>
-        <svg class="icon-check" width="18" height="18">
-            <use href="./icons/symbol-defs.svg#icon-check"></use>
+        <label class="lable-check">
+        <input class="modal-check visually-hidden" type="checkbox" name="checkbox" value="consent">
+        <svg class="icon-check">
         </svg>
-        <span class="modal-check">Соглашаюсь с рассылкой и принимаю
+        <span>Соглашаюсь с рассылкой и принимаю</span>
         <a href="#" class="rules">Условия договора</a>
-    </span>
+    </label>
     <button type="submit" class="submit-button">Отправить</button>
     </form>
     <button class="modal-button" data-modal-close>
