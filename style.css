@@ -48,7 +48,6 @@ body {
 .hero-button {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 ul {
   list-style: none;
 }
@@ -299,8 +298,7 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.modal-check {
-}
+
 .icon-check {
   width: 16px;
   height: 15px;
@@ -684,7 +682,6 @@ button {
 }
 .icon {
   position: absolute;
-
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
